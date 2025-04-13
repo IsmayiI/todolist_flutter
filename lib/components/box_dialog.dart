@@ -24,7 +24,7 @@ class BoxDialog extends StatelessWidget {
         children: [
           TextField(
             controller: controller,
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               enabledBorder: outlineInputBorder,
               focusedBorder: outlineInputBorder,
               hintText: 'To Do',

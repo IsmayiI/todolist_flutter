@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
       // floatingActionButton
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
       ),
 
       // body

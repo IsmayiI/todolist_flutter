@@ -19,12 +19,12 @@ class TodoTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Slidable(
       endActionPane: ActionPane(
-        motion: BehindMotion(),
+        motion: const BehindMotion(),
         children: [
           SlidableAction(
             onPressed: onDelete,
-            backgroundColor: Color(0xFFFE4A49),
-            borderRadius: BorderRadius.all(Radius.circular(12)),
+            backgroundColor: const Color(0xFFFE4A49),
+            borderRadius: const BorderRadius.all(Radius.circular(12)),
             icon: Icons.delete,
             label: 'Delete',
           ),

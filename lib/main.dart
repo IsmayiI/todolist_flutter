@@ -14,16 +14,16 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        appBarTheme: AppBarTheme(
+        appBarTheme: const AppBarTheme(
           backgroundColor: Colors.yellow,
           centerTitle: true,
         ),
-        floatingActionButtonTheme: FloatingActionButtonThemeData(
+        floatingActionButtonTheme: const FloatingActionButtonThemeData(
           backgroundColor: Colors.yellow,
         ),
         scaffoldBackgroundColor: Colors.yellow[200],
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
